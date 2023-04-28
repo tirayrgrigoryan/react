@@ -1,0 +1,19 @@
+.info2{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 150px;
+    gap: 30px;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #ffffff00, #272727), url(../../build/image/nature-3616194_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    flex-wrap: wrap;
+
+    .info2_item{
+        text-align: center;
+
+    }
+}

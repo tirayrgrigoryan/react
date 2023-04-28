@@ -1,0 +1,40 @@
+ 
+.bg_img { 
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: linear-gradient(to bottom right, #ffffff00, #272727), url(../../public/image/background_imge.PNG);
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+} 
+
+.bg{
+  background-image: linear-gradient(to bottom right, #ffffff00, #272727);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.bg_text {
+  display: flex;
+  flex-direction: column;
+  padding: 350px 0px;
+  font-weight: 800;
+  font-size: 36px;
+  color: #fff;
+  align-items: center;
+}
+
+.svg{
+    fill: #fff;
+    margin-bottom: -6px;
+}
+
+.welcome{
+  display: flex;
+  gap: 30px;
+}
+
+
+

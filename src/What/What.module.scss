@@ -1,0 +1,21 @@
+.what_h2{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: -4px;
+}
+
+.what{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15%;
+    align-items: center;
+    justify-content: center;
+    div{
+        max-width: 250px;
+        img{
+            width: 100%;
+        }
+    }
+}

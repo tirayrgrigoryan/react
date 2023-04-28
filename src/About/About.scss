@@ -1,0 +1,39 @@
+.about{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+background-color: #fff;
+scroll-behavior: smooth;
+justify-content: center;
+text-align: -webkit-center;
+margin-bottom: -4px;
+}
+
+.about_img{
+    img{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    // max-width: 50%;
+    align-self: center;
+
+}
+
+
+.about_text{
+max-width: 400px;
+align-self: center;
+}
+
+.im_prime{
+    // width: 50%;
+    padding-bottom: 20px;
+    border-bottom: solid 1px gray;
+
+}
+
+.lorem{
+    padding-top: 20px;
+    width: 80%;
+}

@@ -1,0 +1,51 @@
+.head{
+    background-color: rgba(30,30,30,0.85);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.menu {
+    top: 100%;
+    padding: 10px;
+    position: initial;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    align-items: center; 
+}
+
+.menu {
+    div{
+        a{
+        color: #fff;
+        font-weight: 800;
+        text-decoration: none;
+
+        &:hover{
+            color: var(--col);
+            padding-bottom: 2px;
+            border-bottom:solid 3px var(--col);
+        }
+        &:active{
+            color: var(--col);
+        }
+        }
+    }
+} 
+
+.logo {
+    img{
+        max-width: 200px;
+    }
+}
+
+.active{
+    color: var(--col);
+    
+}
+  
+  

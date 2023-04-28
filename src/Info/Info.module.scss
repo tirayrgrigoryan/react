@@ -1,0 +1,19 @@
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 74px 150px;
+    gap: 30px;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #ffffff00, #272727), url(../../build/image/sg-back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    flex-wrap: wrap;
+
+    
+    .info1_item{
+        text-align: center;
+    }
+}
+

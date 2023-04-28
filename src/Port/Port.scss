@@ -1,0 +1,45 @@
+.port{
+    background-color: #fff;
+    .app{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .card-container{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: var(--white );
+            justify-content: center;
+            align-content: space-around;
+            padding-top: 150px;
+            margin-top: -4px;
+            .card{
+                height: 350px;
+                width: 350px;
+                margin: 4px;
+                padding: 20px 0px 0px 0px ;
+                border-radius: 3px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 30px;
+                img{
+                    max-width: 80%;
+                    object-fit: cover;
+                }
+            }
+
+        }
+    }
+}
+
+.load-more-button{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    &:hover{
+        color: var(--col);
+    }
+
+}

@@ -1,0 +1,63 @@
+.skill{
+    background-color: #fff;
+    display: flex;
+    flex-wrap:wrap ;
+    width: 100%;
+    justify-content: center;
+    padding-top: 40px;
+    margin-bottom: -4px;
+    
+}
+
+.cont1 {
+    display: flex1;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    width: 50%;
+    text-align: start;
+    .skill_cont1_item{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-weight: 800;
+        progress{
+            width: 50%;
+        }
+    
+    }
+}
+
+.cont2{
+    display: flex;
+    // flex-wrap: wrap;
+    // text-align: start;
+    padding-top: 30px;
+    .cont2_item{
+        tr{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+
+        }
+        th{
+            text-align: start;
+        }
+
+        td{
+            padding-left: 20px;
+        }
+
+
+    }
+
+    #oracuyc{
+        display: flex;
+        gap: 30px;
+    }
+}
+
+
+
+// .item2{
+
+// }
